@@ -1,66 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mueez Ali - Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
 <body>
-  <!-- Navigation -->
-  <nav>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#resume">Resume</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#models">3D Models</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+  <!-- Navbar -->
+  <header>
+    <nav>
+      <h2 class="logo">Mueez Ali</h2>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#models">3D Models</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <!-- Sections -->
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-content">
+      <img src="profile.jpg" alt="Mueez Ali" class="profile-pic">
+      <h3>Greetings, I am</h3>
+      <h1>Mueez Ali</h1>
+      <p>Mechatronics Engineer | Automation & Robotics Enthusiast</p>
+      <div class="hero-buttons">
+        <a href="Mueez_Ali_Resume.pdf" class="btn" download>Resume</a>
+        <a href="#contact" class="btn dark">Contact Info</a>
+      </div>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/mueezali" target="_blank"><i class="ri-linkedin-fill"></i></a>
+        <a href="https://github.com/mueezdata" target="_blank"><i class="ri-github-fill"></i></a>
+        <a href="mailto:engineermueezmeca@gmail.com"><i class="ri-mail-fill"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
   <section id="about">
-    <h1>About Me</h1>
-    <p>Hello! I’m Mueez Ali, a Mechatronics Engineer passionate about Automation, Robotics, and Control Systems.</p>
+    <h2>About Me</h2>
+    <p>I am a Mechatronics Engineer passionate about Control Systems, Automation, Robotics, and IoT. Skilled in ROS, PLCs, Embedded Systems, and AI-powered automation solutions.</p>
   </section>
 
+  <!-- Resume -->
   <section id="resume">
-    <h1>Resume</h1>
-    <a href="Mueez_Ali_Resume.pdf" download>Download My Resume</a>
+    <h2>Resume</h2>
+    <p>Click below to download my updated resume.</p>
+    <a href="Mueez_Ali_Resume.pdf" class="btn" download>Download Resume</a>
   </section>
 
+  <!-- Experience -->
   <section id="experience">
-    <h1>Experience</h1>
-    <p>Details of your experience will go here.</p>
-  </section>
-
-  <section id="skills">
-    <h1>Skills</h1>
+    <h2>Experience</h2>
     <ul>
-      <li>Automation & Control</li>
-      <li>ROS & Robotics</li>
-      <li>PLC & SCADA</li>
-      <li>Embedded Systems</li>
+      <li>Industrial Automation Projects</li>
+      <li>ROS-enabled Mobile Robot Development</li>
+      <li>Condition Monitoring & Predictive Maintenance</li>
     </ul>
   </section>
 
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <span>Automation</span>
+      <span>Control Systems</span>
+      <span>Robotics</span>
+      <span>ROS</span>
+      <span>PLC & SCADA</span>
+      <span>Embedded Systems</span>
+      <span>Python & C++</span>
+    </div>
+  </section>
+
+  <!-- Projects -->
   <section id="projects">
-    <h1>Projects</h1>
-    <p>Showcase your projects here.</p>
+    <h2>Projects</h2>
+    <p>Showcase of my academic and industrial projects.</p>
   </section>
 
+  <!-- 3D Models -->
   <section id="models">
-    <h1>3D Models</h1>
-    <p>You can embed 3D models here later.</p>
+    <h2>3D Models</h2>
+    <p>I design and simulate 3D models for robotics and automation systems.</p>
   </section>
 
+  <!-- Contact -->
   <section id="contact">
-    <h1>Contact</h1>
+    <h2>Contact</h2>
     <p>Email: engineermueezmeca@gmail.com</p>
+    <p>Phone: +92 322 9304593</p>
   </section>
 
-  <script src="script.js"></script>
+  <footer>
+    <p>© 2025 Mueez Ali. All rights reserved.</p>
+  </footer>
 </body>
 </html>
